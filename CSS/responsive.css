@@ -157,6 +157,11 @@
     img {
         width: 290px;
     }
+
+    .gm-style .place-card-large {
+        margin-left: 150px;
+        overflow: scroll;
+    }
 }
 
 @media screen and (max-width: 425px)
