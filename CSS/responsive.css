@@ -1,0 +1,168 @@
+@media screen and (max-width: 1200px)
+{
+    #menu {
+        width: 40%;
+    }
+
+    .menu__item {
+        font-size: 25px;
+    }
+
+    #maeva-letz , #maeva-letz-haut {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 425px)
+{
+
+    .menu__btn {
+        display: flex;
+        align-items: center;
+    }
+      
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+    }
+    
+    #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+    
+    #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+    
+    #menu__toggle:checked ~ #menu {
+        visibility: visible;
+        left: 0;
+    }
+
+    #menu {
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        transition-duration: .25s;
+    }
+
+    #maeva-letz {
+        width: 100%;
+    }
+
+    #maeva-letz-haut {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+    h1 {
+        font-size: 35px;
+    }  
+    
+    h2 {
+        font-size: 30px;
+    }  
+}
+
+@media screen and (max-width: 2560px) 
+{
+    p {
+        font-size: 25px;
+    }
+
+    img {
+        width: 1000px;
+    }
+
+    input[id^="spoiler"]:checked + label + .spoiler {
+        font-size: 25px;
+    }
+
+    input[id^="spoiler"] + label {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1440px) 
+{
+    p {
+        font-size: 17px;
+    }
+
+    img {
+        width: 550px;
+    }
+
+    input[id^="spoiler"]:checked + label + .spoiler {
+        font-size: 18px;
+    }
+
+    input[id^="spoiler"] + label {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 1920px) 
+{
+    p {
+        font-size: 18px;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    input[id^="spoiler"]:checked + label + .spoiler {
+        font-size: 22px;
+    }
+
+    input[id^="spoiler"] + label {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+
+    img {
+        width: 390px;
+    }
+}
+
+@media screen and (max-width: 375px) 
+{
+
+    img {
+        width: 345px;
+    }
+}
+
+@media screen and (max-width: 320px) 
+{
+
+    img {
+        width: 290px;
+    }
+}
+
+@media screen and (max-width: 425px)
+{
+    .menu__btn {
+        left: 7px;
+    
+    }
+}
