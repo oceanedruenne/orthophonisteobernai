@@ -113,8 +113,13 @@
     input[id^="spoiler"] + label {
         font-size: 18px;
     }
-    
+
+    iframe {
+        width: 500px;
+    }
 }
+    
+
 
 
 @media screen and (max-width: 1920px) 

@@ -233,7 +233,7 @@ input[id^="spoiler"]{
 }
    input[id^="spoiler"]:checked + label {
      color: black;
-     background: #C7C5C3;
+     background: #A0B36B;
    }
    input[id^="spoiler"] ~ .spoiler {
      width: 90%;
@@ -255,5 +255,5 @@ input[id^="spoiler"]{
 
 
   #ici {
-    color: #cc99ff;
+    color: #A0B36B;
   }
