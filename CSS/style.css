@@ -127,6 +127,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+  color: #cc99ff;
+}
+
 h1 {
     font-family: 'Radley';
     font-size: 65px;
