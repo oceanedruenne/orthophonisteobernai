@@ -1,7 +1,7 @@
 @media screen and (max-width: 1200px)
 {
     #menu {
-        width: 40%;
+        width: 60%;
     }
 
     .menu__item {
@@ -113,6 +113,7 @@
     input[id^="spoiler"] + label {
         font-size: 18px;
     }
+    
 }
 
 
@@ -155,6 +156,12 @@
         margin-left: 150px;
     }
 
+    .hamburger-menu {
+        width: 60%;
+        height: 100%;
+        position: absolute;
+    }
+
 }
 
 @media screen and (max-width: 375px) 
@@ -181,6 +188,9 @@
         left: 10px;
         top: 10px;
     
+    }
+    iframe {
+        width: 390px;
     }
 }
 
@@ -213,6 +223,9 @@
         top: 10px;
     
     }
+    iframe {
+        width: 330px;
+    }
 }
 
 @media screen and (max-width: 425px)
@@ -233,5 +246,18 @@
     .gm-style .place-card-large {
         margin-left: 150px;
         padding: 9px 73px 9px 11px;
+    }
+
+    iframe {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1024px) 
+{
+    .hamburger-menu {
+        width: 60%;
+        height: 100%;
+        position: absolute;
     }
 }
