@@ -141,6 +141,14 @@
     img {
         width: 390px;
     }
+
+    input[id^="spoiler"] + label {
+        width: 80%;
+    }
+
+    input[id^="spoiler"]:checked + label + .spoiler {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 375px) 
@@ -149,10 +157,22 @@
     img {
         width: 345px;
     }
+
+    input[id^="spoiler"] + label {
+        width: 80%;
+    }
+
+    input[id^="spoiler"]:checked + label + .spoiler {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 320px) 
 {
+
+    body {
+        overflow:scroll;
+    }
 
     img {
         width: 290px;
@@ -160,7 +180,14 @@
 
     .gm-style .place-card-large {
         margin-left: 150px;
-        overflow: scroll;
+    }
+
+    input[id^="spoiler"] + label {
+        width: 80%;
+    }
+
+    input[id^="spoiler"]:checked + label + .spoiler {
+        font-size: 16px;
     }
 }
 
@@ -169,5 +196,13 @@
     .menu__btn {
         left: 7px;
     
+    }
+
+    input[id^="spoiler"] + label {
+        width: 80%;
+    }
+
+    input[id^="spoiler"]:checked + label + .spoiler {
+        font-size: 16px;
     }
 }
