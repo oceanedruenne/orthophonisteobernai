@@ -154,6 +154,7 @@
         padding: 9px 73px 9px 11px;
         margin-left: 150px;
     }
+
 }
 
 @media screen and (max-width: 375px) 
@@ -174,6 +175,12 @@
     .gm-style .place-card-large {
         padding: 9px 73px 9px 11px;
         margin-left: 150px;
+    }
+
+    .menu__btn {
+        left: 10px;
+        top: 10px;
+    
     }
 }
 
@@ -200,12 +207,19 @@
     input[id^="spoiler"]:checked + label + .spoiler {
         font-size: 16px;
     }
+
+    .menu__btn {
+        left: 10px;
+        top: 10px;
+    
+    }
 }
 
 @media screen and (max-width: 425px)
 {
     .menu__btn {
-        left: 7px;
+        left: 10px;
+        top: 10px;
     
     }
 
