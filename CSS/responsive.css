@@ -149,6 +149,11 @@
     input[id^="spoiler"]:checked + label + .spoiler {
         font-size: 16px;
     }
+
+    .gm-style .place-card-large {
+        padding: 9px 73px 9px 11px;
+        margin-left: 150px;
+    }
 }
 
 @media screen and (max-width: 375px) 
@@ -165,6 +170,11 @@
     input[id^="spoiler"]:checked + label + .spoiler {
         font-size: 16px;
     }
+
+    .gm-style .place-card-large {
+        padding: 9px 73px 9px 11px;
+        margin-left: 150px;
+    }
 }
 
 @media screen and (max-width: 320px) 
@@ -180,6 +190,7 @@
 
     .gm-style .place-card-large {
         margin-left: 150px;
+        padding: 9px 73px 9px 11px;
     }
 
     input[id^="spoiler"] + label {
@@ -204,5 +215,9 @@
 
     input[id^="spoiler"]:checked + label + .spoiler {
         font-size: 16px;
+    }
+    .gm-style .place-card-large {
+        margin-left: 150px;
+        padding: 9px 73px 9px 11px;
     }
 }

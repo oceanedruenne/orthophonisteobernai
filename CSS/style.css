@@ -110,7 +110,7 @@ body {
   }
 
   .menu__item:hover {
-    color: #A9A9A9;
+    color: #cc99ff;
   }
 
 ul {
@@ -250,3 +250,7 @@ input[id^="spoiler"]{
      padding: 10px;
    }
 
+
+  #ici {
+    color: #cc99ff;
+  }

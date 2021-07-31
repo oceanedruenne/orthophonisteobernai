@@ -108,7 +108,7 @@ body {
   }
 
   .menu__item:hover {
-    color: #A9A9A9;
+    color: #cc99ff;
   }
 
 ul {
@@ -317,4 +317,8 @@ input[id^="spoiler"]{
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+#ici {
+  color: #cc99ff;
 }
