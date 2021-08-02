@@ -11,6 +11,12 @@
     #maeva-letz , #maeva-letz-haut {
         width: 60%;
     }
+
+    .hamburger-menu {
+        width: 30%;
+        height: 100%;
+        position: absolute;
+    }
 }
 
 @media screen and (max-width: 425px)
@@ -266,3 +272,5 @@
         position: absolute;
     }
 }
+
+
