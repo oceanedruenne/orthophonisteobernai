@@ -103,15 +103,12 @@ body {
   .menu__item {
     display: block;
     padding: 12px 24px;
-    color: #333;
+    color: #60374A;
     font-family: 'Radley', sans-serif;
     font-size: 35px;
     font-weight: 600;
   }
 
-  .menu__item:hover {
-    color: #A0B36B;
-  }
 
 ul {
     padding: 0;
@@ -210,7 +207,7 @@ input[id^="spoiler"]{
 }
    input[id^="spoiler"]:checked + label {
      color: white;
-     background: #A0B36B;
+     background: #274A80;
    }
    input[id^="spoiler"] ~ .spoiler {
      width: 90%;
@@ -321,7 +318,11 @@ input[id^="spoiler"]{
   to {opacity: 1}
 }
 
-#ici {
-  color: #A0B36B;
+.couleur {
+  color: #7C5F64;
 }
 
+
+#contact {
+  color: #274A80;
+}

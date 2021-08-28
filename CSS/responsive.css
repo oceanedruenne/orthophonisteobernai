@@ -133,7 +133,8 @@
     }
 
     input[id^="spoiler"]:checked + label + .spoiler {
-        font-size: 22px;
+        font-size: 20px;
+        font-family: 'Radley';
     }
 
     input[id^="spoiler"] + label {
